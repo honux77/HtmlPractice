@@ -3,7 +3,7 @@
 	top: 0;
 	right: 0;
 	width: 80px;
-	height: 50px;
+	height: 60px;
 	background-color: #89b809;
 	color: white;
 	z-index: 9999;
@@ -16,9 +16,10 @@
 	left: 0;
 	right: 0;
 	color:white;
-	height: 50px;
+	height: 60px;
 	background-color:#3a404d;
 	vertical-align: middle;
+	font-size: 14pt;
 	z-index:9998;
 }
 #top ul {
@@ -32,17 +33,10 @@
 	float: left;
 	vertical-align: middle;
 	list-style-type: none;
-	margin-right: 10px;
-}
-#top ul li:after {
-	display: block;
-	content: '';
-	clear: both;
+	margin-right: 20px;
 }
 #top ul li img {
-	height: 20px;
-	width: auto;
-	margin-top: -3px;
+	margin-top:-10px;
 }
 #bottom
 {
@@ -59,22 +53,31 @@
 	list-style-type: none;
 	display: inline;
 }
+#bottom ul li a {
+	text-decoration: none;
+	color: white;
+
+}
 #menu
 {
 	position:fixed;
 	right:0;
 	top:100px;
-	width: 30%;
-	color: white;
+	width: 300px;
+	margin-right:10px;
+	color:white;
 }
-#menu ul li {
-	font-size: 14pt;
-	list-style-type: none;
+#facebook {
+	border-radius:5px;
+	background-color:#4b66d1;
+	height:30pt;
+	vertical-align: middle;
+	text-align: center;
+	line-height:30pt;
+	font-size:16pt;
 }
-#menu span {
-	color: black;
-	font-size: 8pt;
-	font-weight: bold;
+#terms {
+	padding-top:10px
 }
 #main
 {
@@ -90,4 +93,13 @@ html,body {
 	background-size: 120%;
 	width:100%;
 	width:100%;
+}
+*.dark {
+	color:#a5b0ad;
+}
+*.big {
+	font-size:25pt;
+}
+*.small {
+	font-size:10pt;
 }
